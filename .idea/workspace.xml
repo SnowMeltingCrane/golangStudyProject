@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="efdc920b-f9cc-4a04-9957-cd9245fa893c" name="更改" comment="chore(project): 初始化项目配置文件&#10;&#10;- 添加 Go 模块配置文件 studyProject.iml- 配置 Git 版本控制映射关系- 设置编辑器跳转插件项目配置- 初始化 Go 工作区和依赖管理设置&#10;- 配置 GitHub PR 搜索和 UI 设置&#10;- 添加 Go 运行环境和插件初始化配置">
-      <change afterPath="$PROJECT_DIR$/hello.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/var/test1_var.go" afterDir="false" />
+    <list default="true" id="efdc920b-f9cc-4a04-9957-cd9245fa893c" name="更改" comment="chore(project): 初始化Go项目基础配置&#10;&#10;- 添加 Go 模块配置文件 studyProject.iml- 配置 Git 版本控制映射关系&#10;- 设置编辑器跳转插件项目配置- 初始化 Go 工作区和依赖管理设置&#10;- 配置 GitHub PR 搜索和 UI 设置&#10;- 添加 Go 运行环境和插件初始化配置&#10;- 创建基础 Go 文件 hello.go 和变量测试文件 var/test1_var.go&#10;- 配置 Go 运行构建任务和工作目录- 设置默认 Go 文件模板和项目级别 VCS 确认选项">
+      <change afterPath="$PROJECT_DIR$/3-const_iota/test2_const.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello.go" beforeDir="false" afterPath="$PROJECT_DIR$/1-hellogo/hello.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/test1_var.go" beforeDir="false" afterPath="$PROJECT_DIR$/2-var/test1_var.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +38,10 @@
     &quot;accountId&quot;: &quot;4d52cd05-f2fe-4987-bddb-ee834b94141e&quot;
   }
 }</component>
+  <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
+  <component name="KubernetesApiProvider"><![CDATA[{
+  "isMigrated": true
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
 }</component>
@@ -53,6 +58,7 @@
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "DefaultGoTemplateProperty": "Go File",
     "Go 构建.go build studyProject.executor": "Run",
+    "Go 构建.go build studyProject/3-const_iota.executor": "Run",
     "Go 构建.go build studyProject/var.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.GoLinterPluginOnboarding": "true",
@@ -69,10 +75,35 @@
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "run.configurations.included.in.services": "true",
+    "settings.editor.selected.configurable": "Code Search"
   }
 }]]></component>
-  <component name="RunManager" selected="Go 构建.go build studyProject/var">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/1-hellogo" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="GoApplicationRunConfiguration" />
+      </set>
+    </option>
+    <option name="configurationStatuses">
+      <map>
+        <entry key="GoApplicationRunConfiguration">
+          <value>
+            <map>
+              <entry key="go build studyProject/3-const_iota" value="STOPPED" />
+            </map>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="RunManager" selected="Go 构建.go build test2_const.go">
     <configuration name="go build studyProject" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="studyProject" />
       <working_directory value="$PROJECT_DIR$" />
@@ -80,6 +111,15 @@
       <package value="studyProject" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$/hello.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build studyProject/3-const_iota" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="studyProject" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="studyProject/3-const_iota" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/3-const_iota/test2_const.go" />
       <method v="2" />
     </configuration>
     <configuration name="go build studyProject/var" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -91,8 +131,19 @@
       <filePath value="$PROJECT_DIR$/var/test1_var.go" />
       <method v="2" />
     </configuration>
+    <configuration name="go build test2_const.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="studyProject" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <package value="studyProject" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/3-const_iota/test2_const.go" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go 构建.go build test2_const.go" />
+        <item itemvalue="Go 构建.go build studyProject/3-const_iota" />
         <item itemvalue="Go 构建.go build studyProject/var" />
         <item itemvalue="Go 构建.go build studyProject" />
       </list>
@@ -121,7 +172,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="chore(project): 初始化项目配置文件&#10;&#10;- 添加 Go 模块配置文件 studyProject.iml- 配置 Git 版本控制映射关系- 设置编辑器跳转插件项目配置- 初始化 Go 工作区和依赖管理设置&#10;- 配置 GitHub PR 搜索和 UI 设置&#10;- 添加 Go 运行环境和插件初始化配置" />
-    <option name="LAST_COMMIT_MESSAGE" value="chore(project): 初始化项目配置文件&#10;&#10;- 添加 Go 模块配置文件 studyProject.iml- 配置 Git 版本控制映射关系- 设置编辑器跳转插件项目配置- 初始化 Go 工作区和依赖管理设置&#10;- 配置 GitHub PR 搜索和 UI 设置&#10;- 添加 Go 运行环境和插件初始化配置" />
+    <MESSAGE value="chore(project): 初始化Go项目基础配置&#10;&#10;- 添加 Go 模块配置文件 studyProject.iml- 配置 Git 版本控制映射关系&#10;- 设置编辑器跳转插件项目配置- 初始化 Go 工作区和依赖管理设置&#10;- 配置 GitHub PR 搜索和 UI 设置&#10;- 添加 Go 运行环境和插件初始化配置&#10;- 创建基础 Go 文件 hello.go 和变量测试文件 var/test1_var.go&#10;- 配置 Go 运行构建任务和工作目录- 设置默认 Go 文件模板和项目级别 VCS 确认选项" />
+    <option name="LAST_COMMIT_MESSAGE" value="chore(project): 初始化Go项目基础配置&#10;&#10;- 添加 Go 模块配置文件 studyProject.iml- 配置 Git 版本控制映射关系&#10;- 设置编辑器跳转插件项目配置- 初始化 Go 工作区和依赖管理设置&#10;- 配置 GitHub PR 搜索和 UI 设置&#10;- 添加 Go 运行环境和插件初始化配置&#10;- 创建基础 Go 文件 hello.go 和变量测试文件 var/test1_var.go&#10;- 配置 Go 运行构建任务和工作目录- 设置默认 Go 文件模板和项目级别 VCS 确认选项" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
