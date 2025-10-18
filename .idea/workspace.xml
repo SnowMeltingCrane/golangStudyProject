@@ -4,14 +4,22 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="efdc920b-f9cc-4a04-9957-cd9245fa893c" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/studyProject.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="efdc920b-f9cc-4a04-9957-cd9245fa893c" name="更改" comment="chore(project): 初始化项目配置文件&#10;&#10;- 添加 Go 模块配置文件 studyProject.iml- 配置 Git 版本控制映射关系- 设置编辑器跳转插件项目配置- 初始化 Go 工作区和依赖管理设置&#10;- 配置 GitHub PR 搜索和 UI 设置&#10;- 添加 Go 运行环境和插件初始化配置">
+      <change afterPath="$PROJECT_DIR$/hello.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/test1_var.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
   </component>
   <component name="GOROOT" url="file:///opt/homebrew/Cellar/go/1.24.3/libexec" />
   <component name="Git.Settings">
@@ -33,6 +41,9 @@
   &quot;associatedIndex&quot;: 3
 }</component>
   <component name="ProjectId" id="34FBCxG5zsLeZtmfOBAf3gjuDPQ" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -40,6 +51,9 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "DefaultGoTemplateProperty": "Go File",
+    "Go 构建.go build studyProject.executor": "Run",
+    "Go 构建.go build studyProject/var.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.GoLinterPluginOnboarding": "true",
     "RunOnceActivity.GoLinterPluginStorageMigration": "true",
@@ -58,6 +72,32 @@
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
+  <component name="RunManager" selected="Go 构建.go build studyProject/var">
+    <configuration name="go build studyProject" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="studyProject" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="studyProject" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/hello.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build studyProject/var" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="studyProject" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="studyProject/var" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/var/test1_var.go" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go 构建.go build studyProject/var" />
+        <item itemvalue="Go 构建.go build studyProject" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -78,6 +118,10 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="chore(project): 初始化项目配置文件&#10;&#10;- 添加 Go 模块配置文件 studyProject.iml- 配置 Git 版本控制映射关系- 设置编辑器跳转插件项目配置- 初始化 Go 工作区和依赖管理设置&#10;- 配置 GitHub PR 搜索和 UI 设置&#10;- 添加 Go 运行环境和插件初始化配置" />
+    <option name="LAST_COMMIT_MESSAGE" value="chore(project): 初始化项目配置文件&#10;&#10;- 添加 Go 模块配置文件 studyProject.iml- 配置 Git 版本控制映射关系- 设置编辑器跳转插件项目配置- 初始化 Go 工作区和依赖管理设置&#10;- 配置 GitHub PR 搜索和 UI 设置&#10;- 添加 Go 运行环境和插件初始化配置" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
