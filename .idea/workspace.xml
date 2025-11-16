@@ -4,13 +4,8 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="efdc920b-f9cc-4a04-9957-cd9245fa893c" name="更改" comment="feat(const): 添加 iota 常量声明示例&#10;&#10;- 创建 test2_const.go 文件展示 iota 在常量声明中的使用&#10;- 演示 iota 在多个常量块中的不同用法&#10;- 包含 iota与表达式结合使用的示例- 添加主函数输出各常量值以验证功能- 配置 Go 运行环境支持新文件执行&#10;- 更新项目目录结构和构建配置">
-      <change afterPath="$PROJECT_DIR$/4-function/test3_function.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5-init/lib1/lib1.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5-init/lib2/lib2.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5-init/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/studyProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/studyProject.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="efdc920b-f9cc-4a04-9957-cd9245fa893c" name="更改" comment="feat(function): 添加Go函数多返回值示例&#10;&#10;- 创建test3_function.go文件展示函数多返回值用法&#10;- 演示匿名返回值和命名返回值的区别- 包含多个返回值函数的调用示例&#10;- 配置Go运行环境支持新文件执行&#10;- 更新项目目录结构和构建配置">
+      <change beforePath="$PROJECT_DIR$/5-init/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/5-init/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,35 +50,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;DefaultGoTemplateProperty&quot;: &quot;Go File&quot;,
-    &quot;Go 构建.go build studyProject.executor&quot;: &quot;Run&quot;,
-    &quot;Go 构建.go build studyProject/3-const_iota.executor&quot;: &quot;Run&quot;,
-    &quot;Go 构建.go build studyProject/4-function.executor&quot;: &quot;Run&quot;,
-    &quot;Go 构建.go build studyProject/var.executor&quot;: &quot;Run&quot;,
-    &quot;Go 构建.go build test2_const.go.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.GoLinterPluginOnboarding&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.GoLinterPluginStorageMigration&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.modules.go.list.on.any.changes.was.set&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/xueruohang&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;Code Search&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "DefaultGoTemplateProperty": "Go File",
+    "Go 构建.go build studyProject.executor": "Run",
+    "Go 构建.go build studyProject/3-const_iota.executor": "Run",
+    "Go 构建.go build studyProject/4-function.executor": "Run",
+    "Go 构建.go build studyProject/5-init.executor": "Run",
+    "Go 构建.go build studyProject/var.executor": "Run",
+    "Go 构建.go build test2_const.go.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.GoLinterPluginOnboarding": "true",
+    "RunOnceActivity.GoLinterPluginStorageMigration": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.go.formatter.settings.were.checked": "true",
+    "RunOnceActivity.go.migrated.go.modules.settings": "true",
+    "RunOnceActivity.go.modules.go.list.on.any.changes.was.set": "true",
+    "git-widget-placeholder": "master",
+    "go.import.settings.migrated": "true",
+    "last_opened_file_path": "/Users/xueruohang",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "run.configurations.included.in.services": "true",
+    "settings.editor.selected.configurable": "Code Search"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/5-init" />
@@ -103,6 +99,7 @@
             <map>
               <entry key="go build studyProject/3-const_iota" value="STOPPED" />
               <entry key="go build studyProject/4-function" value="STOPPED" />
+              <entry key="go build studyProject/5-init" value="STOPPED" />
               <entry key="go build test2_const.go" value="STOPPED" />
             </map>
           </value>
@@ -191,7 +188,8 @@
     <MESSAGE value="chore(project): 初始化项目配置文件&#10;&#10;- 添加 Go 模块配置文件 studyProject.iml- 配置 Git 版本控制映射关系- 设置编辑器跳转插件项目配置- 初始化 Go 工作区和依赖管理设置&#10;- 配置 GitHub PR 搜索和 UI 设置&#10;- 添加 Go 运行环境和插件初始化配置" />
     <MESSAGE value="chore(project): 初始化Go项目基础配置&#10;&#10;- 添加 Go 模块配置文件 studyProject.iml- 配置 Git 版本控制映射关系&#10;- 设置编辑器跳转插件项目配置- 初始化 Go 工作区和依赖管理设置&#10;- 配置 GitHub PR 搜索和 UI 设置&#10;- 添加 Go 运行环境和插件初始化配置&#10;- 创建基础 Go 文件 hello.go 和变量测试文件 var/test1_var.go&#10;- 配置 Go 运行构建任务和工作目录- 设置默认 Go 文件模板和项目级别 VCS 确认选项" />
     <MESSAGE value="feat(const): 添加 iota 常量声明示例&#10;&#10;- 创建 test2_const.go 文件展示 iota 在常量声明中的使用&#10;- 演示 iota 在多个常量块中的不同用法&#10;- 包含 iota与表达式结合使用的示例- 添加主函数输出各常量值以验证功能- 配置 Go 运行环境支持新文件执行&#10;- 更新项目目录结构和构建配置" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(const): 添加 iota 常量声明示例&#10;&#10;- 创建 test2_const.go 文件展示 iota 在常量声明中的使用&#10;- 演示 iota 在多个常量块中的不同用法&#10;- 包含 iota与表达式结合使用的示例- 添加主函数输出各常量值以验证功能- 配置 Go 运行环境支持新文件执行&#10;- 更新项目目录结构和构建配置" />
+    <MESSAGE value="feat(function): 添加Go函数多返回值示例&#10;&#10;- 创建test3_function.go文件展示函数多返回值用法&#10;- 演示匿名返回值和命名返回值的区别- 包含多个返回值函数的调用示例&#10;- 配置Go运行环境支持新文件执行&#10;- 更新项目目录结构和构建配置" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(function): 添加Go函数多返回值示例&#10;&#10;- 创建test3_function.go文件展示函数多返回值用法&#10;- 演示匿名返回值和命名返回值的区别- 包含多个返回值函数的调用示例&#10;- 配置Go运行环境支持新文件执行&#10;- 更新项目目录结构和构建配置" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
